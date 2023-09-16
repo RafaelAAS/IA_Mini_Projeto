@@ -1,0 +1,10 @@
+Q1: SE Dor de cabeça = Sim ENTÃO Receitar analgésico
+Q2: SE Dor de cabeça = Sim E Garganta inflamada = Sim E Tosse = Sim ENTÃO Diagnóstico = Gripe
+Q3: SE Cansaço = Sim E Dor de cabeça = Sim ENTÃO Diagnóstico = Mononucleose infecciosa
+Q4: SE Cansaço = Sim E Garganta inflamada = Sim ENTÃO Diagnóstico = Amigdalite
+Q5: SE Cansaço = Sim ENTÃO Diagnóstico = Estresse
+Q6: SE Fadiga = Sim E Dor de cabeça = Sim E Dor no corpo = Sim E Ocasionais_dores_garganta = Sim E Ocasionais_tosse = Sim ENTÃO Diagnóstico = Covid19 
+Q7: SE Coriza = Sim E Espirro = Sim ENTÃO Diagnóstico = Rinite Alérgica
+Q8: SE Dor de cabeça = Sim E Coriza = Sim ENTÃO Diagnóstico = sinusite
+Q9: SE Dor de cabeça = Sim E Dor no corpo = Sim E Fadiga = Sim E Manchas avermelhadas = Sim ENTÃO Dianóstico = Dengue
+Q10: SE Dor de cabeça = Sim E Dor no corpo = Sim E Fadiga = Sim E Irritação na pele = Sim ENTÃO Diagnóstico = Chicungunha
